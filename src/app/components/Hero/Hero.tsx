@@ -1,12 +1,12 @@
 import React from 'react'
 const Hero = () => {
   return (
-    <section className='bg-black h-[900px]  gap-4 max-w-[1440px] m-auto w-full px-8 sm:px-[6rem] text-white'>
-      <div className='bg-green-700 h-full  overflow-none pt-24 gap-28  flex  flex-col items-center '>
+    <section className='bg-black h-[900px]  gap-4 max-w-[1440px] m-auto w-full px-[3rem] md:px-[6rem] text-white'>
+      <div className=' h-full  overflow-none pt-1 md:pt-24 gap-28  flex  flex-col items-center '>
         <div className=' h-[357px] gap-4 text-white flex-col flex items-center justify-center '>
-          <h1 className='font-extrabold leading-[120%] text-[45px] md:text-[72px]'>Minimize your tabs.</h1>
-          <h2 className='font-extrabold leading-[120%] text-[45px] md:text-[72px]'>Find the trends!</h2>
-          <p className='text-[18px] text-[#8B8B8B] leading-[150%] text-center'>Don’t let your computer memories consumes all of those browser tabs. Findtrend let you gathers all of your favorite website into one place.</p>
+          <h1 className='font-extrabold leading-[120%] text-[30px] sm:text-[45px] text-center   md:text-[72px]'>Minimize your tabs.</h1>
+          <h2 className='font-extrabold leading-[120%] text-[30px] sm:text-[45px] text-center md:text-[72px]'>Find the trends!</h2>
+          <p className='text-[18px] text-[#8B8B8B] leading-[150%]  text-center'>Don’t let your computer memories consumes all of those browser tabs.<br></br> Findtrend let you gathers all of your favorite website into one place.</p>
 
           <div className='flex gap-4  flex-row'>
           <div className=' bg-[#A8FF35] border-[1px] rounded-2xl text-black px-[24px] gap-10 py-[12px]'>
@@ -18,22 +18,57 @@ const Hero = () => {
           </div>
           </div>
 
-
         </div>
+        <div className='w-full  flex md:flex-row  items-center justify-center flex-col   '>
+          {/* <div className='bg-yellow-300 w-[348.648px] h-[93.5px]  '> */}
+          <div className='bg-[#181818] flex items-center justify-center w-full md:w-[280px] h-[60px]  transform md:-rotate-6 rotate-2'>
+            <div className='flex flex-row items-center justify-center gap-2 '>
+          <img src='/image 96.png' alt="logo"  className='w-[30px] h-[30px]  transform rotate-12   '/>
+            <h1 className='text-white text-[18px] transform text-center'>Cryptopunk - Search</h1>
+            <div>
+          <img src='/Group 1.png' alt="logo"  className='w-[15px] h-[15px]  transform rotate-12   '/>
+
+            </div>
+            </div>
+          </div>
 
 
-        <div className='w-full  flex md:flex-row-reverse  flex-col bg-slate-300   '>
-          {/* <div className='bg-yellow-300 w-[348.648px] h-[93.5px]  '> */}
-          <div className='bg-yellow-100 w-full sm:w-[280px] h-[60px] mt-10 transform -rotate-6 md:rotate-2  '>ff</div>
           {/* </div> */}
           {/* <div className='bg-yellow-300 w-[348.648px] h-[93.5px]  '> */}
-          <div className='bg-yellow-100 w-full sm:w-[280px] h-[60px]   transform md:-rotate-6 rotate-2    '>ff</div>
+          <div className='bg-[#181818] flex items-center justify-center w-full md:w-[280px] h-[60px] mt-14 transform md:rotate-2 -rotate-6'>
+          <div className='flex flex-row items-center justify-center gap-2 '>
+          <img src='/image 94.png' alt="logo"  className='w-[30px] h-[30px]  transform rotate-12   '/>
+            <h1 className='text-red-300 text-[18px] transform text-center'>Cryptopunk - Search</h1>
+            <div>
+          <img src='/Group 1.png' alt="logo"  className='w-[15px] h-[15px]  transform rotate-12   '/>
+
+            </div>
+            </div>
+          </div>
           {/* </div> */}
           {/* <div className='bg-yellow-300 w-[348.648px] h-[93.5px]  '> */}
-          <div className='bg-yellow-100 w-full sm:w-[280px] h-[60px]  mt-10 transform -rotate-6 md:rotate-2 '>ff</div>
+          <div className='bg-[#181818] flex items-center justify-center w-full md:w-[280px] h-[60px]  transform md:-rotate-6 rotate-2'>
+          <div className='flex flex-row items-center justify-center gap-2 '>
+          <img src='/image 95.png' alt="logo"  className='w-[30px] h-[30px]  transform rotate-12   '/>
+            <h1 className='text-red-300 text-[18px] transform text-center'>Cryptopunk - Search</h1>
+            <div>
+          <img src='/Group 1.png' alt="logo"  className='w-[15px] h-[15px]  transform rotate-12   '/>
+
+            </div>
+            </div>
+          </div>
           {/* </div> */}
           {/* <div className='bg-yellow-300 w-[348.648px] h-[93.5px]  '> */}
-          <div className='bg-yellow-100 w-full sm:w-[280px] h-[60px] transform md:-rotate-6 rotate-2     '>ff</div>
+          <div className='bg-[#181818] flex items-center justify-center w-full md:w-[280px] h-[60px] mt-14 transform md:rotate-2 -rotate-6'>
+          <div className='flex flex-row items-center justify-center gap-2 '>
+          <img src='/Rectangle 6.png' alt="logo"  className='w-[30px] h-[30px]  transform rotate-12   '/>
+            <h1 className='text-red-300 text-[18px] transform text-center'>Cryptopunk - Search</h1>
+            <div>
+          <img src='/Group 1.png' alt="logo"  className='w-[15px] h-[15px]  transform rotate-12   '/>
+
+            </div>
+            </div>
+          </div>
           {/* </div> */}
         </div>
       </div>
