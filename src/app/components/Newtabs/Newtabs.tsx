@@ -32,7 +32,16 @@ const Newtabs = () => {
                 <p className='text-black text-[14px] p-6 sm:text-[18px] text-center items-center'>A solution for your browser tabs and don’t make your device get slower over time. Get <br></br> ease and faster to discover a trend with just one tab.</p>
             </div>
 
+
+
+            {/* // ruff work..........................// */}
+
+
         </section>
+
+
+
+
     )
 }
 
