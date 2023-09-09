@@ -30,7 +30,7 @@ const Partner = () => {
                 <h1 className='text-[30px] text-center sm:text-[40px] md:text-[54px] text-black font-bold'>Findtrend make +1000 Startup grow</h1>
                 <div className='gap-4 items-center justify-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
                     {images.map((imageUrl, index) => (
-                        <div key={index} className='px-6 h-[120px] bg-[#F5F5F5] flex items-center justify-center'>
+                        <div key={index} className='px-6 h-[110px] bg-[#F5F5F5] flex items-center justify-center'>
                             <img src={imageUrl} alt={`Image ${index}`} className='w-[110px] sm:w-[190px] h-[24px] sm:h-[40px]' />
                         </div>
                     ))}

@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 const Navbar = () => {
   return (
@@ -7,11 +9,17 @@ const Navbar = () => {
       <div className=' flex items-center justify-between '>
         <img src='/Logo.png' alt="logo" />
         <ul className='lg:flex hidden items-center gap-8 font-semibold '>
-          <li>About</li>
-          <li>How it work</li>
-          <li>Pricing</li>
-          <li>Solution</li>
-          <li>Features</li>
+          {links.map((item, index) => {
+             return (
+              <li key={index}>
+              <Link href={item.href}>
+              {item.name}
+            </Link>
+            </li>
+
+          );
+   })}
+
         </ul>
         <div className='lg:flex hidden gap-8 text-center items-center justify-center '>
           <h4>Login</h4>
@@ -23,5 +31,29 @@ const Navbar = () => {
     </section>
   )
 }
+
+const links = [
+  {
+    name: "About",
+    href: "/"
+  },
+  {
+    name: "How it work",
+    href: "work"
+  }, 
+  {
+    name: "Pricing",
+    href: "pricing"
+  },
+   {
+    name: "Solution",
+    href: "solution"
+  },
+  , 
+  {
+    name: "Features",
+    href: "features"
+  }
+]
 
 export default Navbar

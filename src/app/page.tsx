@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero'
 import Newtabs from './components/Newtabs/Newtabs'
 import Findtrend from './components/Findtrend/Findtrend'
 import Partner from './components/Partner/Partner'
+import Platform from './components/Platform/Platform'
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Newtabs/>
       <Findtrend/>
       <Partner/>
+      <Platform/>
     </main>
   )
 }
