@@ -14,12 +14,12 @@ const images =[
 
 const Platform = () => {
   return (
-    <section className='bg-[#FAFAFA]  flex flex-col items-center justify-center gap-4 max-w-[1440px] m-auto w-full px-[2rem] sm:px-[3rem] md:px-[6rem] text-white'>
+    <section className='bg-[#FAFAFA] min-h-[800px] h-full  flex flex-col pt-  gap-6 m-auto w-full px-[2rem] sm:px-[3rem] md:px-[6rem] text-white'>
      <h1 className='text-[30px] text-center font-bold md:text-[45px] lg:text-[60px] text-black pt-10 '>All platform connect to Findtrend</h1>
-     <div className='flex gap-6  items-start justify-center'>
+     <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6  items-start justify-center'>
 
        {images.map((imageUrl, index) =>
-        <div key={index} className='p-7 flex items-center justify-center h bottom-4 rounded-lg bg-blue-100'>
+        <div key={index} className='p-7 flex items-center justify-center rounded-lg bg-blue-100'>
         <img src={imageUrl} alt={`Image ${index}`} className='w-[110px] sm:w-[60px] h-[24px] sm:h-[60px]' />     
         </div>
        )}
