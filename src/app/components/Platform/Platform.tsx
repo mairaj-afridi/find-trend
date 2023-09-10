@@ -25,7 +25,7 @@ const Platform = () => {
 
 
             <Tweet/>
-            <div className=' bg-black border-[1px] rounded-2xl text-white px-[28px] sm:px-[32px] py-[14px] sm:py-[16px]'>
+            <div className=' bg-black border-[1px] rounded-2xl mb-20 text-white px-[28px] sm:px-[32px] py-[14px] sm:py-[16px]'>
             <h3 className='text-[18px] font-bold '>View More Trend</h3>
           </div>
         </section>
