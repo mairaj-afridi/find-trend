@@ -1,9 +1,10 @@
 import React from 'react'
+import SubscriptionCard from './SubscriptionCard'
 
 const Subscription = () => {
   return (
     <section className='bg-black  h-full  pb-[80px]    items-center  flex flex-col    gap-14   sm:gap-16  m-auto w-full px-[2rem] sm:px-[3rem] md:px-[6rem] text-white'>
-      
+
       <h1 className='text-[33px] text-center font-bold md:text-[45px] lg:text-[60px] text-white pt-10 '>Get your best deal</h1>
       <div className='flex flex-row  items-center gap-4 sm:gap-6 ' >
         <h2 className='text-[24px]'>Monthly</h2>
@@ -16,9 +17,11 @@ const Subscription = () => {
       </div>
       {/*....................................card............................ */}
       <div className=' flex-row grid lg:grid-cols-2 items-center justify-center xl:grid-cols-3 gap-5 1 w-full h-full'>
+        {pricingCardData.map((item, index) => {
+          return <SubscriptionCard title={item.title} subStitle={item.subTitle} price={item.price} list={item.list} />
+        })}
 
- 
-        
+
       </div>
     </section>
   )
@@ -27,24 +30,24 @@ const Subscription = () => {
 
 const pricingCardData = [
   {
-    title:"personal",
-    subTitle:"Special first packet for all",
-    price:'8',
-    list :['Up to 5 page each group','Up to 10 group page','5 Days group page saved']
+    title: "Personal",
+    subTitle: "Special first packet for all",
+    price: '8',
+    list: ['Up to 5 page each group', 'Up to 10 group page', '5 Days group page saved']
 
   },
   {
-    title:"personal",
-    subTitle:"Special first packet for all",
-    price:'8',
-    list :['Up to 5 page each group','Up to 10 group page','5 Days group page saved']
+    title: "Regular",
+    subTitle: "Recommended for personal pro",
+    price: '20',
+    list: ['Up to 15 page each group', 'Download page up to 20', 'Up to 10 group page','15 Days group page saved']
 
   },
   {
-    title:"personal",
-    subTitle:"Special first packet for all",
-    price:'8',
-    list :['Up to 5 page each group','Up to 10 group page','5 Days group page saved']
+    title: "Premium",
+    subTitle: "Packet for Startup & Company",
+    price: '48',
+    list: ['Unlimited group pages', 'Unlimited download page', 'Unlimited page each group','Customize sorting group','Customize group page','30 Days group page saved']
 
   },
 ]

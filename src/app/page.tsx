@@ -5,6 +5,7 @@ import Findtrend from './components/Findtrend/Findtrend'
 import Partner from './components/Partner/Partner'
 import Platform from './components/Platform/Platform'
 import Subscription from './components/Subscription/Subscription'
+import Joinemail from './components/Joinemail/Joinemail'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Partner/>
       <Platform/>
       <Subscription/>
+      <Joinemail/>
     </main>
   )
 }

@@ -10,7 +10,7 @@ const Hero = () => {
 
           <div className='flex gap-4  my-10 flex-row'>
           <div className=' bg-[#A8FF35] border-[1px] rounded-2xl text-black px-[24px] gap-10 py-[12px]'>
-            <h3 className='text-[13px] sm:text-[18px] '>Get Started 🔥</h3>
+            <button className='text-[13px] sm:text-[18px] '>Get Started 🔥</button>
           </div>
           <div className='w-[99px]h-[69px]  flex flex-col items-start' >
           <h1 className='text-[11px] transform rotate-6 w-[100px] text-center eading-10'>All research start from here</h1>

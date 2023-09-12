@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className='lg:flex hidden gap-8 text-center items-center justify-center '>
           <h4>Login</h4>
           <div className=' bg-white border-[1px] rounded-2xl text-black px-[32px] py-[8px]'>
-            <h3 className='text-[18px] '>Register</h3>
+            <button className='text-[18px] '>Register</button>
           </div>
         </div>
       </div>
